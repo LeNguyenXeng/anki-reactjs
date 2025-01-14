@@ -1,0 +1,15 @@
+.anki-title{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 800;
+    font-family: Montserrat-Bold;
+    text-align: center;
+    color: #2f281e;
+    padding: 50px 0 0;
+}
+.line{
+    width: 116px;
+    height: 5px;
+    background-color: #3cc5ff;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(/src/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(/src/fonts/Montserrat-Regular.otf);
+}
+.card{
+    --bs-card-border-color: none !important
+}
+.title{
+    color: #2f281e;
+    font-size: 74px;
+    width: 62%;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-weight: 700;
+    line-height: 100px;
+}
+.des{
+    font-family: "Montserrat-Regular", sans-serif;
+    color: #544837;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.card-body{
+    padding: none !important;
+}
+.cont{
+    margin-top: 50px;
+}
