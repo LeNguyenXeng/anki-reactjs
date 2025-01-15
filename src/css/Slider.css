@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/src/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: "FZ Poppins-Regular";
+  src: url(../fonts/FZ\ Poppins-Regular.ttf);
+}
+.card{
+    --bs-card-bg: none !important;
+}
+.slide-title {
+  color: #fff !important;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.slide-des {
+  color: #fff;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.view-slide {
+  padding: 90px 30px;
+}
+.text-left {
+  color: #2f281e;
+  font-family: "FZ Poppins-Regular";
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.view-rate {
+  background-color: white;
+  width: 90%;
+  border-radius: 20px;
+  position: relative;
+  height: 80px;
+  left: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.slider_arround {
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -10px;
+  right: 60px;
+  width: 30px;
+  height: 30px;
+}
+.view-image {
+  margin-top: 40px;
+}
+.row-comment {
+  display: flex;
+  align-items: center;
+  
+}
+.row-border{
+    border-right: 2px solid white;
+    padding: 20px;
+}
+.carousel-control-prev{
+    display: none !important;
+}
+.carousel-control-next-icon{
+    display: none !important;
+}

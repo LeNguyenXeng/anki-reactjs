@@ -30,3 +30,54 @@
 .cont{
     margin-top: 50px;
 }
+@media only screen and (max-width: 480px) {
+    .banner{
+        width: 100%;
+    }
+    .title{
+        font-size: 61px;
+        width: 90%;
+        font-family: "Montserrat-Bold", sans-serif;
+        font-weight: 700;
+        line-height: 71px;
+    }
+    .des{
+        font-size: 17px;
+        font-weight: 400;
+    
+    }
+}
+@media only screen and (max-width: 991px) {
+    .banner{
+        width: 100%;
+    }
+    .title{
+        font-size: 61px;
+        width: 90%;
+        font-family: "Montserrat-Bold", sans-serif;
+        font-weight: 700;
+        line-height: 71px;
+    }
+    .des{
+        font-size: 17px;
+        font-weight: 400;
+    
+    }
+}
+@media only screen and (max-width: 1399px) {
+    .banner{
+        width: 100%;
+    }
+    .title{
+        font-size: 61px;
+        width: 90%;
+        font-family: "Montserrat-Bold", sans-serif;
+        font-weight: 700;
+        line-height: 71px;
+    }
+    .des{
+        font-size: 17px;
+        font-weight: 400;
+    
+    }
+}

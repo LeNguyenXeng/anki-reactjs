@@ -11,15 +11,26 @@
     color: "#2F281E";
     font-weight: 800;
     line-height: 40px;
-    font-family: Montserrat-Bold;
+    font-family: "Montserrat-Bold";
 }
 .des-why-is-anki{
     font-size: 25px;
     font-weight: 500;
     line-height: 40px;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     width: 75%;
 }
 .view-why-is-anki{
     margin-top: 70px;
+}
+@media only screen and (max-width: 480px) {
+    .title-why-is-anki{
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .des-why-is-anki{
+        font-size: 18px;
+        width: 85%;
+    }
 }

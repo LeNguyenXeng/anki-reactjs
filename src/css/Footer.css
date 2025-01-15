@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Vibur";
+    src: url(/src/fonts/Vibur-Regular.ttf);
+}
+.name-logo{
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: "Vibur", sans-serif;
+
+}
+.cont-footer{
+    background-color: #3cc5ff;
+}
+.text-footer{
+    font-size: 15px;
+    line-height: 35px;
+    font-family: Montserrat;
+    color: #fff;
+}
+.text-footer-2{
+    margin-top: -16px;
+}
+.contact{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.bi{
+    font-size: 20px;
+    color: #46178f;
+}
+.social-media{
+    display: flex;
+}
+.dowload{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.app{
+    width: 150px;
+    display: flex;
+    gap: 10px;
+}
+.appst{
+    width: 100%;
+}
+.copy{
+    padding-top: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.socail-full{
+    display: flex;
+    justify-content: center;
+}

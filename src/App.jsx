@@ -1,12 +1,17 @@
 import { Container, Navbar } from "react-bootstrap";
+
 import Menu from "./components/Menu";
 import Banner from "./components/Banner";
 import Intro from "./components/Intro";
 import "./App.css";
 import WhyIsAnki from "./components/WhyIsAnki";
-import Banner1 from "../src/images/banner1.png"
+import Banner1 from "../src/images/banner1.png";
 import Banner2 from "../src/images/banner2.png";
 import Banner3 from "../src/images/banner3.png";
+import Slide from "./components/Slide";
+import Article from "./components/Article";
+import Footer from "./components/Footer";
+
 
 function App() {
   const banners = [
@@ -30,7 +35,7 @@ function App() {
     },
   ];
   return (
-    <div>
+    <>
       <Menu />
       <Banner />
       <div className="intro">
@@ -42,10 +47,28 @@ function App() {
         <p className="anki-title">Tại sao lại là Anki?</p>
         <div className="line"></div>
         {banners.map((item) => (
-          <WhyIsAnki img={item.img} title={item.title} des={item.des} position={item.position} />
+          <WhyIsAnki
+            img={item.img}
+            title={item.title}
+            des={item.des}
+            position={item.position}
+          />
         ))}
       </div>
-    </div>
+      <div className="cont-slide">
+        <p className="anki-title-slide">Trải nghiệm của khách hàng</p>
+        <div className="line-slide"></div>
+        <Slide />
+      </div>
+      <div className="why-is-anki">
+        <p className="anki-title">Bài Viết</p>
+        <div className="line"></div>
+        <Article/>
+      </div>
+      <div className="footer">
+      <Footer/>
+      </div>
+    </>
   );
 }
 export default App;
