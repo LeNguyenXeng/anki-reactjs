@@ -9,24 +9,28 @@ import "../css/Card.css";
 function Intro() {
   const cardWhoIs = [
     {
+      id: 1,
       img: Icon1,
       title: "Ở trường",
       des: "Học theo nhóm từ của giáo viên hoặc bạn bè, bạn có thể tạo nhóm từ và chia sẻ cho các thành viên khác.",
       color: "#3A5AFF",
     },
     {
+      id: 2,
       img: Icon2,
       title: "Tại nơi làm việc",
       des: "Lúc mệt mỏi hãy dừng lại và lướt trái, lướt phải, bạn sẽ cải thiện khả năng ngôn ngữ của mình tăng một cách đáng kể.",
       color: "#FFC43B",
     },
     {
+      id: 3,
       img: Icon3,
       title: "Ở nhà",
       des: "Ôn luyện mọi lúc mọi nơi sẽ giúp bạn tăng khả năng nhớ từ vựng mỗi ngày.",
       color: "#3CC5FF",
     },
     {
+      id: 4,
       img: Icon4,
       title: "Ứng dụng học tập",
       des: "Là ứng dụng học tập với phương pháp đơn giản và mới lạ giúp bạn không nhàm chán trong con đường học tập của mình.",
@@ -39,6 +43,7 @@ function Intro() {
         <Row>
           {cardWhoIs.map((item) => (
             <CardWhoIs
+            key={item.id}
               img={item.img}
               title={item.title}
               des={item.des}

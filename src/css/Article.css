@@ -1,52 +1,63 @@
 @font-face {
-    font-family: "Roboto-Medium";
-    src: url(../fonts/Roboto-Medium.ttf);
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: "Poppins";
-    src: url(/src/fonts/FZ\ Poppins-Regular.ttf);
-  }
-.border-box{
-    border: none;
-    background-color: #fff;
-    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, .102);
-    border-radius: 20px;
-    margin-bottom: 30px;
+  font-family: "Poppins";
+  src: url(/src/fonts/FZ\ Poppins-Regular.ttf);
 }
-.card-border-img{
-    padding: 16px 16px 0;
-    height: 230px;
-    width: 100%;
+.border-box {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.102);
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
-.card-border-title{
-    font-size: 20px !important;
-    line-height: 23.44px !important;
-    font-weight: 500 !important;
-    font-family: "Roboto-Medium"; 
-    color: #000 !important;
+.card-border-img {
+  padding: 16px 16px 0;
+  height: 230px;
+  width: 100%;
 }
-.card-border-des{
-    font-size: 18px;
-    line-height: 24.75px;
-    font-weight: 400;
-    font-family: Roboto;
-    color: #acacac;
+.card-border-title {
+  font-size: 20px !important;
+  line-height: 23.44px !important;
+  font-weight: 500 !important;
+  font-family: "Roboto-Medium";
+  color: #000 !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
-.card-border-date{
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 500;
-    font-family: "Poppins";
-    color: #ff7426;
+.card-border-des {
+  font-size: 18px;
+  line-height: 24.75px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #acacac;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
-.cont-art{
-    margin-top: 30px;
+.card-border-date {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #ff7426;
 }
-.see-more{
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-weight: 400;
-    color: #eb670f;
-    padding: 30px 0;
+.cont-art {
+  margin-top: 30px;
+}
+.see-more {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 400;
+  color: #eb670f;
+  padding: 30px 0;
+  cursor: pointer;
 }

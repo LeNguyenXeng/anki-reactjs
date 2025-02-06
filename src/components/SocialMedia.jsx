@@ -1,7 +1,7 @@
 function SocialMedia({icon}) {
   return (
       <div className="icon">
-        <i class={icon}></i>
+        <i className={icon}></i>
       </div>
   );
 }

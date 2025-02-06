@@ -13,7 +13,7 @@ function Banner() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={6}  xl={6} lg={6}>
+       <Col xs={12} md={6}  xl={6} lg={6} className="banner-img">
           <img className="banner" src={Banner1} alt="" />
         </Col>
       </Row>

@@ -1,0 +1,2 @@
+.env : biến môi trường chứa các key quan trọng, không đẩy lên git
+config axios: dùng để call api

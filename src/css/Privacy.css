@@ -1,0 +1,16 @@
+.title-privacy{
+    text-align: center;
+}
+.dis-privacy{
+    font-size: 18px;
+    color: #7b7b7b;
+    line-height: 30px;
+    margin-top: 22px;
+}
+.ul-privacy{
+    list-style-type: auto;
+    line-height: 30px;
+    font-size: 17px;
+    color: #7b7b7b;
+    margin-top: 20px;
+}

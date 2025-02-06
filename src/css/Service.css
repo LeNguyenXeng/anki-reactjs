@@ -1,0 +1,28 @@
+.title-service{
+    text-align: center;
+}
+.p-service{
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+.def{
+    font-size: 30px;
+    line-height: 33px;
+    color: #000;
+    font-weight: 700;
+}
+.ser-h5{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.p-ser{
+    font-size: 16px;
+    color: #000;
+}
+.p-ser2{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}

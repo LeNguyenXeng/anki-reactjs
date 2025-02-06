@@ -9,20 +9,25 @@ import Download from "./Download";
 function Footer() {
   const socialMeida = [
     {
+      id: 1,
       icon: "bi bi-facebook",
     },
     {
+      id: 2,
       icon: "bi bi-twitter",
     },
     {
+      id: 3,
       icon: "bi bi-tiktok",
     },
   ];
-  const download = [
+  const downloads = [
     {
+      id: 1,
       img: AppStore,
     },
     {
+      id: 2,
       img: CHPlay,
     },
   ];
@@ -50,19 +55,19 @@ function Footer() {
           <div>
             <p className="dowload">Tải app tại đây:</p>
             <div className="app">
-              {download.map((dowloads) => (
-                <Download img={dowloads.img} />
+              {downloads.map((dowload) => (
+                <Download key={dowload.id} img={dowload.img} />
               ))}
             </div>
             <p className="copy">Copyright @2025, Anki All rights reserved.</p>
           </div>
         </Col>
-        <Col xs={12} md={4} lg={4}  className="socail-full">
+        <Col xs={12} md={4} lg={4} className="socail-full">
           <div>
             <p className="contact">Theo dõi chúng tôi tại</p>
             <div className="social-media">
               {socialMeida.map((item) => (
-                <SocialMedia icon={item.icon} />
+                <SocialMedia key={item.id} icon={item.icon} />
               ))}
             </div>
           </div>
