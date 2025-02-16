@@ -1,0 +1,16 @@
+.login-form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shadow {
+  width: 40vw !important;
+  height: 54vh !important;
+}
+.error {
+  color: red;
+  margin-top: 6px;
+  font-size: 15px;
+}

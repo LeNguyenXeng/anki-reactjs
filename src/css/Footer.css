@@ -68,3 +68,7 @@
     display: flex;
     justify-content: center;
 }
+.footer{
+    background-color: #3cc5ff;
+    padding: 50px;
+}

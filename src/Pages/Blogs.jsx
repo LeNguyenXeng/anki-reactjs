@@ -1,6 +1,7 @@
 import Article from "../components/Article";
 import { useEffect, useState } from "react";
 import { getPostsWithOffset } from "../service/posts";
+import Layout from "../components/Layout";
 
 function Blogs() {
   const [articles, setArticles] = useState([]);
@@ -21,7 +22,7 @@ function Blogs() {
 
   
   return (
-    <>
+    <Layout>
       <Article data={articles} />
       {lastArtcile.length !== 0 && (
         <div>
@@ -30,7 +31,7 @@ function Blogs() {
           </p>
         </div>
       )}
-    </>
+    </Layout>
   );
 }
 export default Blogs;
