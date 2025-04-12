@@ -1,6 +1,6 @@
+import "../App.css";
 import Banner from "../components/Banner";
 import Intro from "../components/Intro";
-import "../App.css";
 import WhyIsAnki from "../components/WhyIsAnki";
 import Banner1 from "../../src/images/banner1.png";
 import Banner2 from "../../src/images/banner2.png";
@@ -10,8 +10,11 @@ import Article from "../components/Article";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { getPosts } from "../service/posts";
+import ButtonClick from "../components/ButtonClick";
 
 function Home() {
+  const [name, setName] = useState("");
+
   const banners = [
     {
       id: 1,
@@ -43,6 +46,11 @@ function Home() {
       setArticles(data);
     } catch (error) {}
   };
+
+  // const handleChange = (name) => {
+  //   setName(name);
+  // };
+
   useEffect(() => {
     getPostsApi();
   }, []);
@@ -55,6 +63,8 @@ function Home() {
         <div className="line"></div>
         <Intro />
       </div>
+      {/* <h1>{name}</h1>
+      <ButtonClick handleChange={handleChange} /> */}
       <div className="why-is-anki">
         <p className="anki-title">Tại sao lại là Anki?</p>
         <div className="line"></div>
