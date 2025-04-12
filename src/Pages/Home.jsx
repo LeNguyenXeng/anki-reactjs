@@ -43,7 +43,7 @@ function Home() {
   const getPostsApi = async () => {
     try {
       const data = await getPosts(3);
-      setArticles(data);
+      setArticles(Array.isArray(data) ? data : []);
     } catch (error) {}
   };
 
